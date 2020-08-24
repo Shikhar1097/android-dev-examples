@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imghero"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:src="@drawable/mypic" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imghero"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="Shikhar Dixit"
+        android:textColor="#121858"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_centerInParent="true"
+        android:text="Software Developer - StackRoute"
+        android:textColor="#424242"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/etsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtprofile"
+        android:layout_margin="20dp"
+        android:hint="Enter subject of message"
+        android:inputType="textEmailSubject" />
+
+    <EditText
+        android:id="@+id/etmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etsub"
+        android:layout_margin="20dp"
+        android:hint="Enter body of message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="#ff9100"
+        android:text="Send Message"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>
