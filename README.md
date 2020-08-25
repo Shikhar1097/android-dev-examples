@@ -1,2 +1,1 @@
-# android-dev-examples
-Examples of android development
+Project to explain the various concepts of android development
